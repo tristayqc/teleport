@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pickable
+  - Cube
+  - FreeRotating
+  - Ladder
+  - LadderLandingPad
+  - RouteCollider
+  - Building
+  - Street
+  - Fracture
+  - Landmark
   layers:
   - Default
   - TransparentFX
@@ -11,10 +21,10 @@ TagManager:
   - 
   - Water
   - UI
+  - Buildings
   - 
-  - 
-  - 
-  - 
+  - Post Processing
+  - Route
   - 
   - 
   - 

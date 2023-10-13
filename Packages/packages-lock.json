@@ -40,10 +40,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.subsystemregistration": {
-      "version": "1.0.6",
-      "depth": 2,
+      "version": "1.1.0",
+      "depth": 3,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
@@ -87,6 +89,27 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.xr.arfoundation": {
+      "version": "4.2.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arsubsystems": "4.2.7",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arsubsystems": {
+      "version": "4.2.7",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.xr.management": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.8",
       "depth": 2,
@@ -98,7 +121,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.0.1",
+      "version": "4.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -111,11 +134,12 @@
       "url": "https://packages.unity.com"
     },
     "com.varjo.xr": {
-      "version": "file:C:/Users/zhaoy33/Downloads/VarjoUnityXRPlugin-2.3.0/VarjoUnityXRPlugin-2.3.0",
+      "version": "file:C:/Users/yaoq1/Downloads/VarjoUnityXRPlugin",
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.unity.xr.management": "3.2.13"
+        "com.unity.xr.management": "4.2.1",
+        "com.unity.xr.arfoundation": "4.2.7"
       }
     },
     "com.unity.modules.ai": {
